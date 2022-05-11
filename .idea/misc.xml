@@ -3,7 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Huawei_Internship/REVIVER/app/src/main/res/layout/activity_main.xml" value="0.20208333333333334" />
+        <entry key="..\:/Huawei_Internship/REVIVER/app/src/main/res/drawable/ic_launcher_background.xml" value="0.215" />
+        <entry key="..\:/Huawei_Internship/REVIVER/app/src/main/res/drawable/transparent_background.xml" value="0.2135" />
+        <entry key="..\:/Huawei_Internship/REVIVER/app/src/main/res/layout/activity_home.xml" value="0.16576086956521738" />
+        <entry key="..\:/Huawei_Internship/REVIVER/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Huawei_Internship/REVIVER/app/src/main/res/layout/content_main2.xml" value="0.16576086956521738" />
+        <entry key="..\:/Huawei_Internship/REVIVER/app/src/main/res/layout/fragment_account.xml" value="0.21927083333333333" />
+        <entry key="..\:/Huawei_Internship/REVIVER/app/src/main/res/layout/fragment_action.xml" value="0.21927083333333333" />
+        <entry key="..\:/Huawei_Internship/REVIVER/app/src/main/res/layout/fragment_dashboard.xml" value="0.16576086956521738" />
+        <entry key="..\:/Huawei_Internship/REVIVER/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Huawei_Internship/REVIVER/app/src/main/res/layout/fragment_notifications.xml" value="0.16576086956521738" />
+        <entry key="..\:/Huawei_Internship/REVIVER/app/src/main/res/layout/fragment_tracker.xml" value="0.21927083333333333" />
+        <entry key="..\:/Huawei_Internship/REVIVER/app/src/main/res/layout/home.xml" value="0.16576086956521738" />
+        <entry key="..\:/Huawei_Internship/REVIVER/app/src/main/res/menu/bottom_menu.xml" value="0.1" />
+        <entry key="..\:/Huawei_Internship/REVIVER/app/src/main/res/menu/bottom_nav_menu.xml" value="0.21927083333333333" />
+        <entry key="..\:/Huawei_Internship/REVIVER/app/src/main/res/menu/botton_nav_menu.xml" value="0.1" />
       </map>
     </option>
   </component>
