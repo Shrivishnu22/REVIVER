@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,20 +9,21 @@
         android:id="@+id/textView"
         android:layout_width="175dp"
         android:layout_height="165dp"
-        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="80dp"
         android:fontFamily="@font/mail"
-        android:text="Welcome Back, Vishnu"
+        android:text="@string/welcome_back_vishnu"
         android:textColor="#7FB5FF"
         android:textSize="35sp" />
 
     <ImageView
         android:id="@+id/imageView"
+        android:contentDescription="@string/image"
         android:layout_width="178dp"
         android:layout_height="188dp"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginTop="50dp"
-        android:layout_marginRight="40dp"
+        android:layout_marginEnd="40dp"
         android:src="@drawable/welcome"
         />
 
@@ -32,16 +32,19 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView"
         android:layout_marginTop="40dp"
-        android:text="Explore"
-        android:layout_marginLeft="15dp"
+        android:text="@string/explore"
+        android:layout_marginStart="15dp"
         android:textColor="@color/black"
-        android:textSize="20dp"/>
+        android:textSize="20sp"/>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/textView"
-        android:layout_marginTop="75dp"></androidx.recyclerview.widget.RecyclerView>
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
 
 
 </RelativeLayout>
