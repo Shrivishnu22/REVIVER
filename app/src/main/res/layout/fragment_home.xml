@@ -18,24 +18,23 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:contentDescription="@string/image"
         android:layout_width="178dp"
         android:layout_height="188dp"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="50dp"
-        android:layout_marginEnd="40dp"
-        android:src="@drawable/welcome"
-        />
+        android:layout_marginEnd="38dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/welcome" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView"
-        android:layout_marginTop="40dp"
-        android:text="@string/explore"
         android:layout_marginStart="15dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/explore"
         android:textColor="@color/black"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
@@ -43,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/textView"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="50dp"
         android:layout_marginRight="15dp" />
 
 

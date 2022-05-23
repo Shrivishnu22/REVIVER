@@ -13,7 +13,7 @@
         app:showAsAction="ifRoom"
         />
     <item
-        android:id="@+id/placeholder"
+        android:id="@+id/dial"
         android:icon="@drawable/ic_call"
         android:title="Dial"
         app:showAsAction="ifRoom"/>

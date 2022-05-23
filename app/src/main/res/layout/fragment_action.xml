@@ -14,7 +14,27 @@
         android:layout_height="wrap_content"
         app:videoId=""
         app:autoPlay="false"
-        app:YouTubePlayerView="true"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructions to be followed"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textSize="24sp"
+        android:textColor="#EB5353"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:textSize="14sp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:fontFamily="@font/inter"
+        />
+
 
 </LinearLayout>

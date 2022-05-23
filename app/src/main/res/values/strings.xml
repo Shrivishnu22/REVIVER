@@ -55,4 +55,10 @@
         <item>"Last year, the Yuba City Fire Department rolled out its Stop the Bleed program as part of a nationwide campaign to better prepare the public"</item>
         <item>"Helicopter emergency medical services (HEMS) are expanding throughout the world, particularly in high-income countries,"</item>
     </string-array>
+
+    <string name="instructions">
+        <li>"Remove any clothing or debris on the wound : Don't remove large or deeply embedded objects. Your first job is to stop the bleeding. Wear disposable protective gloves if available."</li>
+        <li>"Stop the bleeding : clean cloth on the wound. Press the bandage firmly with your palm to control bleeding. Apply constant pressure until the bleeding stops. Maintain pressure by binding the wound with a thick bandage or a piece of clean cloth. Don't put direct pressure on an eye injury or embedded object."</li>
+        <li>"Secure the bandage with adhesive tape or continue to maintain pressure with your hands. If possible, raise an injured limb above the level of the heart."</li>
+    </string>
 </resources>
