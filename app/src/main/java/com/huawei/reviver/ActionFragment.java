@@ -4,13 +4,11 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.MediaController;
+import android.widget.VideoView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-
-import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer;
-import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener;
-import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
 
 
 public class ActionFragment extends Fragment {
@@ -19,17 +17,11 @@ public class ActionFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_action, container, false);
-        YouTubePlayerView youTubePlayerView = view.findViewById(R.id.youtube_player_view);
-        getLifecycle().addObserver(youTubePlayerView);
-
-        youTubePlayerView.addYouTubePlayerListener(new AbstractYouTubePlayerListener() {
-            @Override
-            public void onReady(@NonNull YouTubePlayer youTubePlayer) {
-                String videoId = "mhBe7Q6mH3U";
-                youTubePlayer.loadVideo(videoId, 0);
-            }
-        });
-
+        VideoView videoView = view.findViewById(R.id.video);
+        videoView.setVideoPath("android.resource://"+getActivity().getPackageName()+"/"+R.raw.stopbleed);
+        MediaController mediaController = new MediaController(getContext());
+        mediaController.setAnchorView(videoView);
+        videoView.setMediaController(mediaController);
         return view;
     }
 }
