@@ -24,6 +24,7 @@
         android:layout_marginTop="30dp"
         android:text="Instructions to be followed"
         android:textAlignment="center"
+        android:fontFamily="@font/mail"
         android:textColor="#EB5353"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -42,6 +43,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
+                android:paddingBottom="20sp"
                 android:text="@string/instructions1" />
 
             <TextView
@@ -49,6 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
+                android:paddingBottom="20sp"
                 android:text="@string/instructions2" />
 
             <TextView
@@ -56,6 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
+                android:paddingBottom="20sp"
                 android:text="@string/instructions3" />
 
             <TextView
@@ -63,6 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
+                android:paddingBottom="20sp"
                 android:text="@string/instructions4" />
 
             <TextView
@@ -70,6 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
+                android:paddingBottom="20sp"
                 android:text="@string/instructions5" />
 
             <TextView
@@ -77,6 +83,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
+                android:paddingBottom="20sp"
                 android:text="@string/instructions6" />
 
             <TextView
@@ -84,6 +91,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
+                android:paddingBottom="20sp"
                 android:text="@string/instructions7" />
 
             <TextView
@@ -91,6 +99,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
+                android:paddingBottom="20sp"
                 android:text="@string/instructions8" />
         </LinearLayout>
     </ScrollView>
